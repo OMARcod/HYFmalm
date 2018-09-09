@@ -7,7 +7,8 @@ body {
     
     
     
-    background: #319efc;
+    background: #ffffff;
+    border: solid 2px black;
     
     
         }
@@ -15,6 +16,7 @@ body {
         section {
 
             flex: 1;
+            margin-left: 10px;
         }
 
         table,
@@ -37,10 +39,24 @@ body {
             width: 100%;
         }
 
-th + th{
-    color:red;
+h4 {
+    border: solid 2px black;
+    padding: 10px;
+    width: 4em;
+    
 }
 
-th:first-of-type,td + td{
-    color:green;
+th + th{
+    color:#000000;
+    background-color: #dedbcb;
+}
+
+th:first-of-type, td:first-of-type{
+    color:#ffffff;
+    background-color: #ff8a25
+}
+
+h2:first-of-type {
+    color: #ffb97d;
+    text-align: center;
 }

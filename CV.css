@@ -1,0 +1,117 @@
+body {
+    margin-top: 20px;
+    font-family: sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 700;
+}
+
+.CvBox {
+
+    margin: auto;
+    width: 70%;
+    box-shadow: 1px 20px 30px #6f6f6f;
+    background-color: #f1f1f1;
+
+}
+
+
+header {
+    border-bottom: solid 2px black;
+    padding: 1em;
+    background: #80e2ce;
+    color: white;
+    padding-bottom: 10px;
+}
+
+header h1 {
+
+    margin-bottom: 0px;
+
+
+}
+
+#boxHead1 {}
+
+#boxHead2 {
+    margin-left: 8em;
+}
+
+header img {
+
+    width: 90px;
+    border-radius: 50%;
+    float: left;
+    border: solid 3px #ff7bf5;
+
+
+}
+
+.BotomLine {
+    border-bottom: solid 1px grey;
+}
+
+.Tobline {
+    border-top: solid 1px grey;
+}
+
+
+article {
+    flex: 1;
+
+    padding: 1em;
+    margin-top: 20px
+}
+
+
+article h3 {
+    margin: auto;
+    background-color: #333;
+    color: white;
+    width: 5em;
+    padding: 10px;
+
+}
+
+section {
+    display: flex;
+
+}
+
+article:first-of-type {
+    border-right: solid 1px grey;
+}
+
+main {
+
+    padding: 1em;
+}
+
+main h3 {
+    /*    background-color: yellow;*/
+    width: 6.4em;
+    padding: 6px;
+    color: #6f6f6f;
+}
+
+main p {
+    padding-left: 3em
+}
+
+footer {
+
+    padding: 1em;
+}
+
+
+
+
+
+
+
