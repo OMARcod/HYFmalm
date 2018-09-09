@@ -1,6 +1,7 @@
 body {
     margin-top: 20px;
     font-family: sans-serif;
+    margin-bottom: 20px
 
 }
 
@@ -61,7 +62,14 @@ header img {
     border-top: solid 1px grey;
 }
 
-
+.floatBox {
+/*    border: solid 2px black;*/
+    padding: 20px;
+    box-shadow: 1px 1px 20px #bcbcbc;
+    border-radius: 15px;
+    background: #f0f0f0;
+    
+}
 article {
     flex: 1;
 
@@ -76,6 +84,8 @@ article h3 {
     color: white;
     width: 5em;
     padding: 10px;
+    box-shadow: 1px 1px 20px #bcbcbc;
+    border-radius: 5px;
 
 }
 
@@ -84,9 +94,11 @@ section {
 
 }
 
+/*
 article:first-of-type {
     border-right: solid 1px grey;
 }
+*/
 
 main {
 
@@ -107,6 +119,7 @@ main p {
 footer {
 
     padding: 1em;
+    text-align: center;
 }
 
 
