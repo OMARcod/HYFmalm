@@ -1,0 +1,46 @@
+body {
+    background-color: #7c716c;
+}
+
+.weather-info {
+            display: flex;
+    
+    
+    
+    background: #319efc;
+    
+    
+        }
+
+        section {
+
+            flex: 1;
+        }
+
+        table,
+        th,
+        td {
+
+
+            border-collapse: collapse;
+            border: solid 2px black;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            text-align: left;
+            padding: 10px;
+        }
+
+        table {
+            width: 100%;
+        }
+
+th + th{
+    color:red;
+}
+
+th:first-of-type,td + td{
+    color:green;
+}
