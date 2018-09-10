@@ -40,23 +40,30 @@ table {
     border-collapse: collapse;
     width: 27%;
     box-shadow: 6px 6px 10px #f47e7e;
-    border:solid 1px #afaeae;
+    
     margin-bottom: 20px;
+    
+   
 }
+
+ 
 
 td {
     text-align: left;
+  
     padding: 8px;
 }
 
 tr .g {
     background-color: #cccccc;
     color: white;
-    width: 20%
+    width: 20%;
+    
 }
 
 tr:nth-child(even) {
     background-color: #dedede;
+    
 }
 
 #boxHead1 {}
