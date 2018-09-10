@@ -8,7 +8,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: Verdana, Geneva,sans-serif;
     font-weight: 700;
 }
 
@@ -23,9 +23,9 @@ h4 {
 
 
 header {
-    border-bottom: solid 2px black;
+    border-bottom: solid 2px grey;
     padding: 1em;
-    background: #80e2ce;
+    background: #abddc6;
     color: white;
     padding-bottom: 10px;
 }
@@ -39,9 +39,10 @@ header h1 {
 table {
     border-collapse: collapse;
     width: 27%;
-    box-shadow: 6px 6px 10px #f47e7e;
+    box-shadow: 1px 4px 20px #cb9999;
     
     margin-bottom: 20px;
+    margin-left: 4.5em;
     
    
 }
@@ -77,7 +78,7 @@ header img {
     width: 90px;
     border-radius: 50%;
     float: left;
-    border: solid 3px #ff7bf5;
+    border: solid 3px #fccbd3;
 
 
 }
@@ -118,6 +119,10 @@ article h3 {
 
 }
 
+#b {
+    width: 6.1em;
+}
+
 section {
     display: flex;
 
@@ -142,7 +147,10 @@ main h3 {
 }
 
 main p {
-    padding-left: 3em
+    margin-left: 3em;
+    padding: 30px
+    
+    
 }
 
 footer {
@@ -162,3 +170,6 @@ p a{
     text-decoration: none;
     color:#2aa3a3;
 }
+
+
+       
