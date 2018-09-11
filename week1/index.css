@@ -28,6 +28,21 @@ header {
     background: #abddc6;
     color: white;
     padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 0.1fr 1fr ;
+    grid-template-areas: 
+        "boxHead1 boxHead2";
+    
+}
+
+.boxHead1 {
+    grid-area: boxHead1;
+}
+
+.boxHead2 {
+    
+    grid-area: boxHead2;
+    
 }
 
 header h1 {
@@ -67,11 +82,7 @@ tr:nth-child(even) {
     
 }
 
-#boxHead1 {}
 
-#boxHead2 {
-    margin-left: 8em;
-}
 
 header img {
 
