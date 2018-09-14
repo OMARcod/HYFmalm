@@ -1,0 +1,60 @@
+section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        
+         "header header header"
+        "sidbar sidbar sidbar"
+        "article article article" "fotter fotter fotter";
+grid-gap: 10px;
+}
+
+
+div {
+    border: solid 2px gray;
+    background: #d0d0d0;
+    padding: 20px;
+
+}
+
+.header {
+    grid-area: header;
+}
+
+.article {
+    grid-area: article;
+}
+
+.sidbar {
+    grid-area: sidbar;
+
+}
+
+.fotter {
+    grid-area: fotter;
+
+}
+
+div:nth-child(3n) {
+    background: yellow;
+}
+
+
+@media screen and (min-width: 500px) {
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-areas:
+        "header sidbar article"
+        "header . article"
+        "header fotter fotter";
+}
+
+}
+    
+}
+
+
+
+

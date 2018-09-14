@@ -1,0 +1,38 @@
+section {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr );
+    
+    grid-auto-rows: 100px;
+    grid-gap: 20px;
+   
+}
+
+div {
+    background:#ff7979;
+  
+    border: solid 2px #7a7ae6;
+    
+    
+   
+}
+
+.Box1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    grid-gap: 20px;
+}
+.Box2 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    
+}
+.Box3 {
+    
+}
+.Box4 {}

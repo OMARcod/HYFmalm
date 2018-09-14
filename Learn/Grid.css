@@ -12,6 +12,7 @@
         "sidebar sidebar"
         "content content"
         "footer footer";
+    grid-row-gap: 10px;
 }
 
 .title {
@@ -29,12 +30,7 @@
 .content {
     grid-area: content;
 }
-.content-first {
-    grid-area: content-first;
-}
-.content-second {
-    grid-area: content-second;
-}
+
 
 .footer {
     grid-area: footer;
@@ -64,6 +60,9 @@
         ". header header ."
         ". sidebar content ."
         ". footer footer .";
+        grid-row-gap: 0px;
+        grid-gap: 2px;
+        
 }
     
 /*    when the site is larger than 763px it gona start adding the stilying insid the media*/
