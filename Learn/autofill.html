@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        .container {
+            display: grid;
+            grid-gap: 0.5em;
+            grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+            /*            minmax say i dont whant to be smalar than 50px but it can stretch to 1fr */
+            /*            grid-template-columns: repeat(auto-fill, 200px);*/
+            /*            grid-template-columns: repeat(5, minmax(50px, 1fr));*/
+            /*            auto-fit it will not but a black speace but it will autofill it*/
+            background: black;
+        }
+
+        .box {
+            background: red;
+            padding: 20px 0px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">A</div>
+        <div class="box">B</div>
+        <div class="box">C</div>
+        <div class="box">D</div>
+        <div class="box">E</div>
+        <div class="box">F</div>
+    </div>
+</body>
+</html>
