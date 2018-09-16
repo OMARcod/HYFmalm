@@ -45,12 +45,80 @@ header {
     
 }
 
-header h1 {
 
-    margin-bottom: 0px;
+
+
+
+header img {
+
+    width: 90px;
+    border-radius: 50%;
+    float: left;
+    border: solid 3px #fccbd3;
 
 
 }
+
+.BotomLine {
+    border-bottom: solid 1px grey;
+}
+
+.Tobline {
+    border-top: solid 1px grey;
+}
+
+
+
+
+#b {
+    width: 6.1em;
+}
+
+section {
+    display: flex;
+
+}
+
+article {
+    flex: 1;
+
+    padding: 1em;
+    margin-top: 20px
+}
+
+.floatBox {
+    /*    border: solid 2px black;*/
+    padding: 20px;
+    box-shadow: 1px 1px 20px #bcbcbc;
+    border-radius: 15px;
+    background: #f0f0f0;
+
+}
+
+
+article h3 {
+    margin: auto;
+    background-color: #333;
+    color: white;
+    width: 5em;
+    padding: 10px;
+    box-shadow: 1px 1px 20px #bcbcbc;
+    border-radius: 5px;
+
+}
+
+
+/*
+article:first-of-type {
+    border-right: solid 1px grey;
+}
+*/
+
+main {
+
+    padding: 1em;
+}
+
 table {
     border-collapse: collapse;
     width: 27%;
@@ -82,73 +150,6 @@ tr:nth-child(even) {
     
 }
 
-
-
-header img {
-
-    width: 90px;
-    border-radius: 50%;
-    float: left;
-    border: solid 3px #fccbd3;
-
-
-}
-
-.BotomLine {
-    border-bottom: solid 1px grey;
-}
-
-.Tobline {
-    border-top: solid 1px grey;
-}
-
-.floatBox {
-    /*    border: solid 2px black;*/
-    padding: 20px;
-    box-shadow: 1px 1px 20px #bcbcbc;
-    border-radius: 15px;
-    background: #f0f0f0;
-
-}
-
-article {
-    flex: 1;
-
-    padding: 1em;
-    margin-top: 20px
-}
-
-
-article h3 {
-    margin: auto;
-    background-color: #333;
-    color: white;
-    width: 5em;
-    padding: 10px;
-    box-shadow: 1px 1px 20px #bcbcbc;
-    border-radius: 5px;
-
-}
-
-#b {
-    width: 6.1em;
-}
-
-section {
-    display: flex;
-
-}
-
-/*
-article:first-of-type {
-    border-right: solid 1px grey;
-}
-*/
-
-main {
-
-    padding: 1em;
-}
 
 main h3 {
     /*    background-color: yellow;*/
