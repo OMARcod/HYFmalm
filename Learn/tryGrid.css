@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background: #a3a3a3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.GridBox {
+    display: grid;
+    grid-template-columns: 0.01fr 1fr
+1fr 0.01fr  ;
+    grid-template-areas:
+        " .  article article  ."
+        " . side-box1 side-box1  ."
+        " . side-box2 side-box2  ."
+        " . side-box3  side-box3 ."
+        
+        ;
+    grid-gap: 10px;    
+    
+}
+
+.article {
+    grid-area: article;
+    
+}
+
+
+.side-box1 {
+    grid-area: side-box1;
+    
+}
+.side-box2 {
+    grid-area: side-box2;
+    background: #989828;
+}
+.side-box3 {
+    grid-area: side-box3;
+   
+}
+
+.GridBox div{
+    color: #000000;
+    background: white;
+    
+}
+
+.padding {
+    padding: 30px;
+}
+
+@media screen and (min-width: 850px) {
+    .GridBox {
+    display: grid;
+    grid-template-columns: 1fr  900px
+400px 1fr ;
+    grid-template-areas:
+        ". article  side-box1 ."
+        ". article   side-box2 ."
+        ". article   side-box3 ."
+        ". article   . ."
+        
+       
+        
+        ;
+        
+        grid-gap: 10px;
+        
+}
+}
+
+
