@@ -1,3 +1,3 @@
-here is my homwork 
+here is my homwork.
 
 https://omarcod.github.io/HackYourFuture/week3/
