@@ -7,14 +7,59 @@
 body {}
 
 header {
-    background-color: #9b9898;
-    text-align: center
+    background-color: #fdfdfd;
+    text-align: center;
 }
 
 .navbar {
-    background-color: #957f7f;
-    height: 100px;
+    
+    background-color: #2d9fc9;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
 }
+.navbar p {
+    padding: 28px;
+    padding-left: 150px;
+    font-size: 25px;
+
+    
+}
+.navbar p a{
+        color: white;
+text-decoration: none;
+}
+
+.navbar ul {
+    
+    list-style-type: none;
+    overflow: hidden;
+    padding: 31px;
+    font-size: 21px;
+  
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    text-decoration:underline;
+}
+
+.navbar p a:hover {
+    text-decoration:underline;
+}
+
 
 .firstBox {
     background-image: url("https://www.rijksoverheid.nl/binaries/medium/content/gallery/rijksoverheid/attentie-afbeeldingen/onderwerpen/m/minimumloon/grand-cafe-minimumloon-hero.jpg");
@@ -26,14 +71,30 @@ header {
 .firstBox section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 0px ;
-    margin:30px;
+    padding: 30px ;
+    
     list-style-position: inside;
 }
 
+
 .firstBox div {
     background-color: aliceblue;
-    width: 200px
+    width: 200px;
+    padding: 20px
+}
+input[type=text] {
+    
+    width:400px;
+    margin-left: 100px;
+    height: 30px;
+   
+    
+    
+    font-size: 16px;
+    
+    padding: 12px 20px 12px 40px;
+    border:none ;
+    
 }
 
 .info1 {
