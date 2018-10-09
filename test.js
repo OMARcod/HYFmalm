@@ -3,4 +3,4 @@ if (number > 20) {
 alert("this working");  
 }
 
-document.body.innerHTML = "Hallo world is working";
+document.body.innerHTML = "oallo world is working";
