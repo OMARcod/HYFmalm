@@ -5,3 +5,7 @@ header {
     border-bottom: solid 1px black;
     font-family: sans-serif;
 }
+
+article {
+    text-align: center;
+}
