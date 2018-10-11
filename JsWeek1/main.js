@@ -90,11 +90,11 @@ if (var4 == var1) {
  console.log(var4 + " and "+ var1+ " dont have the same value");
 };
 
-// 9 i did not understand this part i looked how other did 
+// 9
 var x = 7;
 console.log('The value of ' + x + ' % ' + 3 + ' is: ' + (x % 3));
-console.log('The value of (10 % 2) is: ' + 10 % 2);
-console.log('The value of (16 % 6 ) is: ' + 16 % 6);
-console.log('The value of (29 % 10) is: ' + 29 % 10);
+console.log("becuse (7 / 3) = 2");
+console.log("3 * 2 = 6");
+console.log("7 - 6 = 1 (Remainder)");
 
 // 10
