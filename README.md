@@ -1,2 +1,2 @@
 # HackYourFuture
-https://omarcod.github.io/HackYourFuture/Jsweek1/
+https://omarcod.github.io/HackYourFuture/week3/
