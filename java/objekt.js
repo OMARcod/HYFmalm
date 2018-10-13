@@ -1,26 +1,26 @@
-// var omar = {
-//  first_name: "omar",
-//  last_name: "abdullah",
-//  age: "19",
-//  brothers: ["ali", "hannin", "rabi"],
-//  adress: {
-//       street: "Adjunktsgatan 4B",
-//       city: "Malmö",
-//       state: "Skåne"
+var omar = {
+ first_name: "omar",
+ last_name: "abdullah",
+ age: "19",
+ brothers: ["ali", "hannin", "rabi"],
+ adress: {
+      street: "Adjunktsgatan 4B",
+      city: "Malmö",
+      state: "Skåne"
      
-//  },
-//  fullName: function(){
-//   return this.first_name + " " + this.last_name;
-//  },
+ },
+ fullName: function(){
+  return this.first_name + " " + this.last_name;
+ },
 
-//  age_adress: function(){
-//   return this.adress.city+ " " +this.adress.street+ " " +this.adress.state+ " " +"age: "+ this.age;
-//  }
-// }
+ age_adress: function(){
+  return this.adress.city+ " " +this.adress.street+ " " +this.adress.state+ " " +"age: "+ this.age;
+ }
+}
 
-// console.log(omar.first_name);
-// console.log(omar.fullName());
-// console.log(omar.age_adress());
+console.log(omar.first_name);
+console.log(omar.fullName());
+console.log(omar.age_adress());
 
 function Person (firstName, last_name, age, brothers) {
  this.firstName = firstName;
