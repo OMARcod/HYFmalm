@@ -28,6 +28,7 @@ console.log(y);
 var z = 7.25;
 console.log(z);
 var a =  Math.round(z);
+// console.log(parseInt(z)) number in string 
 console.log(a);
 console.log(Math.max(z, a));
 
@@ -39,6 +40,8 @@ var arrays = ["cat" , "dog" , "rabbit"];
 console.log(arrays);
 arrays.push("horse");
 console.log(arrays);
+// find javaScript
+// indexOf javaScript
 
 // 7
 let myString = "this is a test";
@@ -92,9 +95,9 @@ if (var4 == var1) {
 
 // 9
 var x = 7;
-console.log('The value of ' + x + ' % ' + 3 + ' is: ' + (x % 3));
+console.log( x + ' % ' + 3 + ' = ' + (x % 3));
 console.log("becuse (7 / 3) = 2");
 console.log("3 * 2 = 6");
 console.log("7 - 6 = 1 (Remainder)");
 
-// 10
+//  10 
