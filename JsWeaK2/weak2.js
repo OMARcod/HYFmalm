@@ -52,3 +52,69 @@ var theKing = {
     }
 }
 console.log(theKing.fullName());
+
+
+// 4
+function  vehicleType(color , num) {
+    if (num == 1) 
+    {
+        console.log("a "+ color + " car.");
+    }
+     else if (num == 2)
+     {
+        console.log("a "+ color + " motorbike");
+    }
+}
+console.log(vehicleType("black" , 2));
+console.log(vehicleType("red" , 1));
+
+// 5
+console.log(3===3 ? "yes" : "no" );
+
+// 6
+function  vehicleType(color , num, age) {
+    if (num == 1 && age <= 2) 
+    {
+        console.log("a "+ "new" + color + " car.");
+    }
+     else if (num == 2 && age <= 2)
+     {
+        console.log("a "+ "new" + color + " motorbike");
+    } else if (num == 1 && age > 2)
+     {
+        console.log("a "+ "old" + color + " car.");
+    } else if (num == 2 && age > 2) {
+        console.log("a "+ "old" + color + " motorbike");
+    }
+};
+
+// 7
+let list =  ["motorbike" , "car" , "caravan" , "bike"]
+
+// 8
+console.log(list[2]);
+
+// 9
+function  vehicleType(color , num, age) {
+    if (num == 1 && age <= 2) 
+    {
+        console.log("a "+ "new " + color + " " + list[1]);
+    }
+     else if (num == 2 && age <= 2)
+     {
+        console.log("a "+ "new " + color + " " + list[0]);
+    } else if (num == 1 && age > 2)
+     {
+        console.log("a "+ "old " + color + " " + list[1]);
+    } else if (num == 2 && age > 2) {
+        console.log("a "+ "old " + color +  " " +list[0]);
+    }
+    if (num == 3 && age <= 2) 
+    {
+        console.log("a "+ "new " + color + " " + list[3]);
+    }
+    else if (num == 3 && age > 2)
+    {
+       console.log("a "+ "old " + color + " " + list[3]);
+   }
+};
