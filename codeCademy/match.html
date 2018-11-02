@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="style.css">
+ <style>
+ img {
+  width: 300px;
+  height: 300px;
+ }
+ </style>
+</head>
+  
+<body>
+	<section class = "container">
+  	<img src = "Red2.jpg" id= "myImage">
+  	<p onclick="blooming()">Codecademy</p>
+	</section>
+</body>
+  
+<script>
+  function blooming() {
+      var image = document.getElementById('myImage');
+        if (image.src.match("Red2")) {
+          image.src = "Ps4.jpg";
+          } else {
+          image.src = "Red2.jpg";
+          }    
+    }
+</script>
+  
+</html>
